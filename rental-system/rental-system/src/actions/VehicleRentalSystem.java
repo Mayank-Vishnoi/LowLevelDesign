@@ -9,6 +9,7 @@ import models.User;
 public class VehicleRentalSystem {
     private List<User> users;
     private List<Store> stores;
+    private List<StoreController> storeControllerList; // actually interact with users
 
     // CRUD on users
 

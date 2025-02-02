@@ -14,6 +14,7 @@ public class StoreController {
     }
 
     public List<Vehicle> getVehiclesBasedByType(VehicleType type) {
+        // lookup in store.VehicleInventoryManagement's list
         // call VehicleInventoryManagement to return vehicles based on this filter
         // user will select one and proceed for reservation
         return List.of();
